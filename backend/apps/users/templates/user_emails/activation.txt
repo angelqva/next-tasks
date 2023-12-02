@@ -1,0 +1,16 @@
+{% load i18n %}
+
+{% blocktrans %}
+
+Account activation on {{ name_site }}
+
+You're receiving this email because you need to finish activation process on {{ name_site }}.
+
+Please go to the following page to activate account:
+
+{{ activation_url|safe }}
+
+Thanks for using our site!
+
+The {{ name_site }} team
+{% endblocktrans %}

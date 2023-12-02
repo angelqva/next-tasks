@@ -1,0 +1,16 @@
+{% load i18n %}
+
+<h2>{% blocktrans %}Account activation on {{ name_site }}{% endblocktrans %}</h2>
+
+<p>{% blocktrans %}You're receiving this email because you need to finish activation process on {{ name_site }}.{% endblocktrans %}</p>
+
+<p>{% trans "Please go to the following page to activate account:" %}</p>
+
+<p><a href="{{ activation_url|safe }}">{{ activation_url|safe }}</a></p>
+
+<p>{% trans "Thanks for using our site!" %}</p>
+
+<p>{% blocktrans %}The {{ name_site }} team{% endblocktrans %}</p>
+
+
+

@@ -1,0 +1,22 @@
+{
+	"extends": [
+		"next/core-web-vitals",
+		"plugin:security/recommended",
+        "plugin:react-hooks/recommended"
+	],
+    "plugins": [
+    "react-hooks"
+    ],
+	"rules": {
+		"indent": "off",
+		"quotes": "off",
+		"no-extra-semi": "off",
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn"
+	},
+    "settings": {
+        "react": {
+          "version": "18.2.21"
+        }
+      }
+}

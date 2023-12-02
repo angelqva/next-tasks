@@ -1,0 +1,11 @@
+{{ name_site }} - Your account has been successfully created and activated!
+
+"Your account has been created and is ready to use!"
+
+"Thanks for using our site!, 
+
+You can authenticated at 
+
+{{ url_login|safe }}
+
+The {{ name_site }} Team
